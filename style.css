@@ -1,0 +1,23 @@
+/* COLORIE LES PARAGRAPHE P */
+p{
+    color: red;
+}
+
+/*COLORIE LES Heading tags */
+h1{
+    color: green;
+}
+
+h2{
+    color:yellow;
+}
+
+h3{
+    color: blue;
+
+}
+
+h4{
+
+    color: blueviolet;
+}
