@@ -1,6 +1,6 @@
 /* COLORIE LES PARAGRAPHE P */
 p{
-    color: red;
+    color: rgb(8, 3, 3);
 }
 
 /*COLORIE LES Heading tags */
@@ -9,7 +9,7 @@ h1{
 }
 
 h2{
-    color:yellow;
+    color:rgb(99, 11, 65);
 }
 
 h3{
@@ -21,3 +21,21 @@ h4{
 
     color: blueviolet;
 }
+
+
+
+
+.rsma{
+        color:blue;
+}
+/*structure de ma page */
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.paragraphe {
+    font-style: italic
+}
+
+
+
