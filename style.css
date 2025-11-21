@@ -7,28 +7,22 @@ p{
 h1{
     color: green;
 }
-
 h2{
-    color:rgb(99, 11, 65);
+   color:rgb(99, 11, 65);
 }
-
 h3{
     color: blue;
-
 }
 
 h4{
-
     color: blueviolet;
 }
-
-
-
-
+/*rsma*/
 .rsma{
-        color:blue;
-}
-/*structure de ma page */
+        color:blue;    }
+
+
+        /*structure de ma page */
 body {
     font-family: "Poppins", sans-serif;
 }
