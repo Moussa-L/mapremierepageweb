@@ -3,15 +3,73 @@
 /*SELECTEUR*/ 
 /*côter droit et la valeur */
 /*l'ensemble l'instruction */
-div =id"divsolid"{
-    color: rgb(37, 34, 34);
-    background: linear-gradient(135deg, #e8c1c2 0%, #fad0c4 100%);/*surligneur*/
-    border:solid blue; 
-   
+
+    
+/*ici j'ai une insertions de bordure solid */ 
+
+#divsolid{
+    border:solid;
+    color: rgb(34, 37, 35);
+    background-color:red;
+}
+ 
+/*ici j'ai une insertions de bordure double*/
+#divdouble{
+    border: double;
+    color: rgb(62, 188, 97);
+    background-color:blue;
+}
+
+/* ici j'ai une insertions de bordure a pointié*/
+#divdotted{
+    border: dotted;
+    color: rgb(74, 134, 63);
+    background-color:yellow;
+}
+
+/*ici j'ai un insertions de bordure a petit tiret*/
+#divdashed{
+    border: dashed;
+    color: rgb(51, 27, 105);
+    background-color:green;
 }
 
 
+#div1{
+  border:solid;
+  border-radius:25px 10px 50px 75px;
+  color : red;
+  background-color: yellow;
+}
 
+#div2{
+  border:4px solid purple;
+  padding:20px;
+  width:fit-content;
+  margin:20px
+}
+
+.petal {
+    width: 60px;
+    height: 90px;
+    background: #ff7eb9;
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: center bottom;
+  }
+
+.flower{
+    width: 50px;
+    height: 50px;
+    background: #ffd166;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 
 
