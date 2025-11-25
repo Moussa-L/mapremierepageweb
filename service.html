@@ -14,68 +14,14 @@
     <link href="service.css" rel="stylesheet">
     <!--L'attribut rel indique le type de lien et href précise la source du fichier a impoter -->
 
-<style>
-  .flower {
-    width: 150px;
-    height: 150px;
-    position: relative;
-    margin: 40px auto;
-  }
 
-  .petal {
-    width: 60px;
-    height: 90px;
-    background: #ff7eb9;
-    border-radius: 50px 50px 50px 50px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform-origin: center bottom;
-  }
 
-  /* Pétale du haut */
-  .p1 {
-    transform: translate(-50%, -100%);
-  }
-
-  /* Pétale de droite */
-  .p2 {
-    transform: translate(0%, -50%) rotate(90deg);
-  }
-
-  /* Pétale du bas */
-  .p3 {
-    transform: translate(-50%, 0%) rotate(180deg);
-  }
-
-  /* Pétale de gauche */
-  .p4 {
-    transform: translate(-100%, -50%) rotate(-90deg);
-  }
-
-  /* Centre de la fleur */
-  .center {
-    width: 50px;
-    height: 50px;
-    background: #ffd166;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-</style>
 </head>
+<body>
 
-<!--le corps de la page -->
-<body> 
-     <div class="flower">
-  <div class="petal p1"></div>
-  <div class="petal p2"></div>
-  <div class="petal p3"></div>
-  <div class="petal p4"></div>
-  <div class="center"></div>
-</div>
+
+
+
 
     <!--elle permet de créer une sections --> <!--peut mettre un id  exempl: "div1"-->
 
@@ -110,7 +56,13 @@
 
     <br>
 
-   
+<div class="flower">
+  <div class="petal p1"></div>
+  <div class="petal p2"></div>
+  <div class="petal p3"></div>
+  <div class="petal p4"></div>
+  <div class="center"></div>
+</div>   
     
 
 </body>

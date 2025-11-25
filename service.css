@@ -4,42 +4,48 @@
 /*côter droit et la valeur */
 /*l'ensemble l'instruction */
 
-    
+div{
+  width: 150px;
+
+}    
 /*ici j'ai une insertions de bordure solid */ 
 
 #divsolid{
     border:solid;
     color: rgb(34, 37, 35);
-    background-color:red;
+    background-color:rgb(87, 84, 84);
+
 }
  
 /*ici j'ai une insertions de bordure double*/
 #divdouble{
     border: double;
-    color: rgb(62, 188, 97);
-    background-color:blue;
+    color: rgb(5, 5, 44);
+    background-color:rgb(57, 57, 122);
 }
 
 /* ici j'ai une insertions de bordure a pointié*/
 #divdotted{
     border: dotted;
     color: rgb(74, 134, 63);
-    background-color:yellow;
+    background-color:rgb(173, 208, 179);
 }
 
 /*ici j'ai un insertions de bordure a petit tiret*/
 #divdashed{
     border: dashed;
     color: rgb(51, 27, 105);
-    background-color:green;
+    background-color:rgb(156, 122, 206);
 }
+
 
 
 #div1{
   border:solid;
   border-radius:25px 10px 50px 75px;
   color : red;
-  background-color: yellow;
+  background-color: rgb(250, 112, 123);
+  height: 23;
 }
 
 #div2{
@@ -49,34 +55,51 @@
   margin:20px
 }
 
+
+.flower {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  margin: 5px auto;
+}
+
 .petal {
-    width: 60px;
-    height: 90px;
-    background: #ff7eb9;
-    border-radius: 50px 50px 50px 50px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform-origin: center bottom;
-  }
-<style>
-  .flower {
-    width: 150px;
-    height: 150px;
-    position: relative;
-    margin: 40px auto;
-  }
-.flower{
-    width: 50px;
-    height: 50px;
-    background: #ffd166;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  width: 100px;
+  height: 100px;
+  background:red;
+  border-radius: 50px;
+  position: absolute;
+  top: 00%;
+  left: 00%;
+  transform-origin: center bottom;
+}
 
 
+/* Pétales */
+.p1 {
+  transform: translate(-50%, -100%);
+}
 
- 
+.p2 {
+  transform: translate(0%, -50%); rotate(90deg);
+}
+
+.p3 {
+  transform: translate(-50%, 0%); rotate(180deg);
+}
+
+.p4 {
+  transform: translate(-100%, -50%); rotate(-90deg);
+}
+
+/* Centre */
+.center {
+  width: 50px;
+  height: 50px;
+  background: #d0ab53;
+  border-radius: 50%;
+  position: absolute;
+  top: 00%;
+  left: 00%;
+  transform: translate(-50%, -50%);
+}
