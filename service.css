@@ -107,9 +107,10 @@ div{
 #cartons{
         width: 200px;
         height: 200px;
-        background: blue;
+        background: rgb(0, 174, 255);
         border-radius:15px ;
-        box-shadow: 6px 6px 0px rgba
+        box-shadow: 6px 6px 0px rgba(0,0,0);
+        text-align: center;
 
     } 
 
