@@ -1,10 +1,40 @@
 
-div{
-    display: inline;
+div{ /*vas selectionner la balise div(toutes)côter html*/
+    display: inline; /*pour alligné tout les div */
+    margin-left: 20px;/*vas les décaler vers la gauche*/
+   
+}
+form{/*vas selectionner la balise form (toutes) côter htlm*/
+    background-color: rgb(211, 181, 181); /*colorie l'arrière plan du formulaire*/
+}
+
+input[type=text] , [type=date],[type=email],[type=radio]{/*vas me selectionner tout les balise input de type text
+    ,date,email et radio*/
+
+    padding: 10px;/*ajouter un espace a l'interieur de la balised'input*/
+    margin: 7px;/*vas décaler*/
+    border-radius: 10px;/*vas nous permettre d'arrondir les angles*/
+    
 
 }
-form{
-    background-color: rgb(224, 75, 75);
-}
+ input[type=date]{/*vas me selectionner tout les balise input de type text*/
+    padding: 10px ;/*ajouter un espace a l'interieur de la balised'input*/
+    margin: 7px;/*vas décaler*/
+    border-radius: 10px; /*vas nous permettre d'arrondir les angles*/
+ }
+
+  
+ input[type=email]{/*vas me selectionner tout les balise input de type email*/
+    padding: 10px ;/*ajouter un espace a l'interieur de la balised'input*/
+    margin: 7px;/*vas décaler*/
+    border-radius: 10px;/*vas nous permettre d'arrondir les angles*/
+    
+ }
+
+ button[type=submit]{/*vas me selectionner tout les balise button de type submit*/
+    margin-bottom: 15px; /*vas décaler le bouton*/
+    margin-left: 5px;/*vas les décaler vers la gauche*/
+
+ }
 
 
