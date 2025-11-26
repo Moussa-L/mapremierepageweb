@@ -1,32 +1,96 @@
+<!--Je crée un formulaire d'inscrption-->
 <!DOCTYPE html>
 <html>
 
-
+<!--l'entête-->
 <head>
+
+  <!--l'encodage-->  
   <meta charset="UTF-8">
+
+  <!--Titre de la page web-->
   <title>Formulaire d'inscriptions </title>
+  <link href="formulaire.css" rel="stylesheet">
+
 </head>
 
+
+<!--le corp-->
 <body>
 
-
+     <!--titre de mon formulaire-->
      <h2> Formulaire d'inscptions </h2>
 
-  <form action="traitement.php" method="post">
-    <label>Nom :</label><br>
-    <input type="text" name="nom" required><br><br>
 
-    <label>Prénom(s) :</label><br>
-    <input type=prénom(s) name=prénom(s) required><br><br>
+  <!--la balise qui encadre tous les champs du formulaire 
+  (inputs, boutons…).-->
+  <form>
 
-    <label> Date de Naissance :</label><br>
-    <input type=dateDeNaissance name=dateDeNaissance required><br><br>
+<div >
+    <!--nom des cases-->
+    <label for="nom">Nom :</label>
+    <!--insertions de text-->
+    <input type="text" name="nom" id="nom" >
 
-    <label> Village :</label><br>
-    <input type=village name=village required><br><br>
+    <!--nom des cases-->
+    <label for="prénom">Prénom(s) :</label>
+
+    <!--insertions de text-->
+    <input type="text" name=prénom id="prénom" > 
+  
+</div>
+
+<br><br>
 
 
+
+<div >
+    <!--nom des cases-->
+    <label for="dateNaissance"> Date de Naissance :</label>
+
+    <!--insertions de text-->
+    <input type="date" name="dateNaissance" id="dateNaissance">
+
+
+    <!--nom des cases-->
+    <label for="village"> Village :</label>
+
+    <!--insertions de text-->
+    <input type="text" name=village id="village">
+</div> 
+<br><br>
+
+    <!--Saisis d'email-->
+    <label for="email"> Email : </label><br><br>
+    <input type="email" name="email" id="email"><br><br>
+    
+
+    <label>Genre:</label><br><br>
+    <!--bouton a cliqué si c'est une femme-->
+    <input type="radio" name="sexe" id="sexeFeminin">
+    <label for="feminin"> F </label>
+    
+    <!--bouton a cliqué si c'est un Homme-->
+    <input type="radio" name="sexe" id="sexeMasculin">
+    <label for="masculin"> M </label><br><br>
+
+
+    <label> Disciplines: </label><br><br>
+
+    <input type="checkbox" name="maths" id="maths">    
+    <label> Maths </label><br>
+
+    <input type="checkbox" name="histoireGéographique" id="istoireGéographique">    
+    <label> HistoireGéographique </label><br>
+
+    <input type="checkbox" name="eps" id="eps">    
+    <label> EPS </label><br><br>
+
+
+    <!--bouton envoyer-->
     <button type="submit">Envoyer</button>
+
+  <!--Fin de formulaire-->  
   </form>
 
 
