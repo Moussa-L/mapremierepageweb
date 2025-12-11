@@ -66,33 +66,67 @@
       <!--Saisis d'email-->
       <label for="email"> Email : </label>
       <input type="email" name="email" id="email">
+
+      <!--Saisis de téléphone-->
+      <label for="telephone"> Téléphone : </label>
+      <input type="tel" name="telephone" id="telephone">
       
   </div>
 
   <br><br>
-  <div>
-    <label>Genre:</label>
-      <!--bouton a cliqué si c'est une femme-->
-      <input type="radio" name="sexe" id="sexeFeminin">
-      <label for="feminin"> F </label>
-      
-      <!--bouton a cliqué si c'est un Homme-->
-      <input type="radio" name="sexe" id="sexeMasculin">
-      <label for="masculin"> M </label>
+  
+
+<h3>Produits sélectionnés :</h3>
+<ul id="liste-produits"></ul>
 
   </div>
   <br><br>
     
   <div>
-    <label> Disciplines: </label>
+    <!-- Groupe des fruits -->
+<div>
+    <label><strong>Fruits :</strong></label><br><br>
 
-    <input type="checkbox" name="maths" id="maths">    
-    <label> Maths </label>
+    <!-- Chaque ligne correspond à un fruit -->
+    <input type="checkbox" name="pomme" id="pomme">
+    <label for="pomme"> Pomme </label>
 
-    <input type="checkbox" name="histoireGéographique" id="istoireGéographique">    
-    <label> HistoireGéographique </label>
-    <input type="checkbox" name="eps" id="eps">    
-    <label> EPS </label>
+    <input type="checkbox" name="banane" id="banane">
+    <label for="banane"> Banane </label>
+
+    <input type="checkbox" name="orange" id="orange">
+    <label for="orange"> Orange </label>
+
+    <input type="checkbox" name="fraise" id="fraise">
+    <label for="fraise"> Fraise </label>
+
+    <input type="checkbox" name="raisin" id="raisin">
+    <label for="raisin"> Raisin </label>
+</div>
+
+<br>
+
+<!-- Groupe des légumes -->
+<div>
+    <label><strong>Légumes :</strong></label><br><br>
+
+    <!-- Chaque ligne correspond à un légume -->
+    <input type="checkbox" name="carotte" id="carotte">
+    <label for="carotte"> Carotte </label>
+
+    <input type="checkbox" name="tomate" id="tomate">
+    <label for="tomate"> Tomate </label>
+
+    <input type="checkbox" name="concombre" id="concombre">
+    <label for="concombre"> Concombre </label>
+
+    <input type="checkbox" name="courgette" id="courgette">
+    <label for="courgette"> Courgette </label>
+
+    <input type="checkbox" name="poivron" id="poivron">
+    <label for="poivron"> Poivron </label>
+</div>
+
   </div>
   <br><br>
     
